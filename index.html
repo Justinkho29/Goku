@@ -16,7 +16,168 @@
         .background-overlay {
             position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;
 
-            background-image: url(https://media.istockphoto.com/id/1132047395/photo/crossed-arms-filipino-soldier-with-national-waving-flag-on-background-philippines-military.jpg?s=612x612&w=0&k=20&c=fH1FwI5K5X_nkHdTwdHiim6T3jN78_uOm3u1n3_r3kU=); 
+            background-image: url(/imageses/Thearmy.jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center; opacity: .90 ;
+            
+        }
+
+
+        .header { padding: 30px 40px 10px 40px; text-align: right; position: relative; z-index: 2; }
+        .main-content { display: flex; position: relative; z-index: 2; }
+      hr { border: none; border-top: 1px solid #ccc; margin: 15px 0; }
+
+        .sidebar { width: 35%; padding: 20px 20px 20px 40px; (255, 255, 255, 0.7); color: #333; position: relative; }
+        .sidebar h3 { color: #8c0000; font-size: 18px; font-weight: 700; margin-bottom: 10px; padding-top: 10px; border-bottom: 2px solid #8c0000; display: inline-block; }
+        .contact-info i { color: #00008c; margin-right: 10px; width: 15px; text-align: center; }
+        .edu-item .degree { font-weight: 700; color: #00008c; }
+        .skill-list, .languages ul { list-style: none; padding-left: 0; }
+        .skill-list li::before, .languages li::before { content: "\2022"; color: #8c0000; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+
+       
+        .content-body { width: 65%; padding: 20px 40px 20px 20px; (255, 255, 255, 0.9); }
+        .content-body h3 { 
+            color: #8c0000; font-size: 18px; font-weight: 700; margin-bottom: 10px; padding-top: 10px; 
+            border-bottom: 2px solid #8c0000; display: inline-block; 
+
+        }
+        .profile p { text-align: justify; font-size: 15px; margin-top: 10px; } 
+        .experience-item { margin-top: 15px; }
+        .experience-item h4 { font-size: 15px; color: #00008c; margin-bottom: 5px; text-align: right;  }
+        .experience-item ul { list-style: none; padding-left: 0; font-size: 14px; text-align: left;  }
+        .experience-item ul li { padding-left: 1.5em; position: relative; margin-bottom: 5px; text-align: justify; }
+        .experience-item ul li::before { content: "\2022"; color: #8c0000; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="background-overlay"></div>
+
+        <header class="header">
+            <div class="header-content">
+                <div class="name-title">
+                    <h1 style="font-size: 36px; margin-bottom: 5px; color: #1a1a1a; font-weight: 700;">JUSTIN DAVE KHO</h1>
+                    <h2 style="font-size: 18px; font-weight: 400; color: #333;">COMMANDING GENERAL</h2>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <aside class="sidebar">
+                <section class="contact">
+                    <h3>CONTACT</h3>
+                    <div class="contact-info" style="font-size: 14px;">
+                        <p style="margin-bottom: 5px;"><i class="fas fa-phone-alt"></i> +63 123 4567 890</p>
+                        <p style="margin-bottom: 5px;"><i class="fas fa-envelope"></i> generalkho@military.com</p>
+                        <p style="margin-bottom: 5px;"><i class="fas fa-map-marker-alt"></i> Imus City, Cavite, Philippines</p>
+                        <p style="margin-bottom: 5px;"><i class="fas fa-globe"></i> www.militarycorp.com</p>
+                    </div>
+                </section>
+                
+                <hr>
+
+                <section class="education">
+                    <h3>EDUCATION</h3>
+                    <div class="-item" style="font-size: 14px;">
+                        <p class="degree">BACHELOR OF SCIENCE (COMMISSION AS OFFICER, AFP) | PHILIPPINE MILITARY ACADEMY, FORT DEL PILAR, BAGUIO CITY | **APRIL 17, 2035**</p>
+                    </div>
+                </section>
+                
+                <hr>
+
+                <section class="skills">
+                    <h3>SKILLS</h3>
+                    <ul class="skill-list">
+                        <li>Command & Control System</li>
+                        <li>Strategic Leadership</li>
+                        <li>Operations Management</li>
+                        <li>Technical Proficiency</li>
+                        <li>Cybersecurity</li>
+                        <li>Communication Systems, SCADA Systems</li>
+                        <li>Technical Proficiency</li>
+                    </ul>
+                </section>
+                
+                <hr>
+
+                <section class="languages">
+                    <h3>LANGUAGES</h3>
+                    <ul>
+                        <li>English (Fluent/Native)</li>
+                        <li>Filipino (Fluent/Native)</li>
+                    </ul>
+                </section>
+                
+                <div class="sidebar-icon-placeholder" style="position: absolute; bottom: 20px; right: 20px; font-size: 30px; color: #8c0000;">
+                    <i class="fas fa-id-badge" style="margin-left: 10px;"></i>
+                    <i class="fas fa-clipboard-list" style="margin-left: 10px;"></i>
+                </div>
+            </aside>
+
+            <section class="content-body">
+                <section class="profile">
+                    <h3>PROFILE</h3>
+                    <p>A highly distinguished and results-driven military leader with a profound dedication to national services culminating in diverse command roles including Captain and General. Expert in designing, implementing and overseeing sophisticated Command & Control systems to ensure operational superiority and swift response in high-stakes dynamic environments, with specialized experience in advanced cybersecurity, defenses, battle tracking, and secure communication. Possesses unparalleled experience in orchestrating large-scale operations, implementing critical strategic initiatives, and fostering disciplined, high-performing teams. Eager to leverage this extensive expertise, as strategic C2, crisis management, and executive leadership to drive significant organizational success as a Command & Control Specialist in the civilian sector.</p>
+                </section>
+                
+                <hr>
+
+                <section class="work-experience">
+                    <h3>WORK EXPERIENCE</h3>
+                    
+                    <div class="experience-item">
+                        <h4>First Lieutenant, Armed Forces of the Philippines | 2036 - 2038</h4>
+                        <ul>
+                            <li>Supervised team-level C2 operations, maintaining high standards of readiness and effective information flow to higher commands.</li>
+                            <li>Conducted training programs focused on battle tracking, digital mapping, secure communications, and Command Post of the Future (CPOF) operations.</li>
+                            <li>Prepared detailed operational reports and briefed senior officers on real-time unit status via C2 systems.</li>
+                            <li>Maintained readiness of over 100 units of communication equipment, ensuring 99% uptime during critical missions.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <h4>Captain, Armed Forces of the Philippines | 2038 - 2042</h4>
+                        <ul>
+                            <li>Managed daily operations and tactical C2 planning for a dynamic forward operating base, ensuring precise execution of assigned tasks.</li>
+                            <li>Mentored and developed [4,000] junior officers in C2 protocols and decision making under pressure.</li>
+                            <li>Coordinated multi-unit communications and resource allocation using integrated C2 platforms during field deployments, maintaining robust security measures and secure communication channels.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <h4>General, Armed Forces of the Philippines | 2042 - 2043</h4>
+                        <ul>
+                            <li>Directed national-level strategic C2 operations, advising top government and military leadership on critical defense and security policies.</li>
+                            <li>Oversaw the development and integration of advanced C2 technologies across multiple major commands, enhancing real-time situational awareness and cybersecurity posture.</li>
+                            <li>Cultivated international and inter-agency C2 partnerships to optimize collaborative responses to complex threats.</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume :kho justin </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+
+        { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; line-height: 1.6; display: flex; justify-content: center; padding: 20px; }
+        .resume-container { width 210mm; min-height: 297mm; position: relative; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden;  }
+
+        .background-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;
+
+            background-image: url(/imageses/Thearmy.jpg); 
             background-size: cover; 
             background-repeat: no-repeat;
             background-position: center; opacity: .90 ;
